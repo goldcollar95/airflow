@@ -19,7 +19,7 @@ with DAG(
     
 
     send_email = EmailOperator(
-        task_id='send_email_task',
+        task_id='send_email',
         to='yjs7298@naver.com',
         subject='{{ data_interval_end.in_timezone("Asia/Seoul") | ds }} some_logic 처리결과',
         html_content='{{ data_interval_end.in_timezone("Asia/Seoul") | ds}} 처리 결과는 <br> \
