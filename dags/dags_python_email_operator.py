@@ -1,7 +1,7 @@
 from airflow import DAG
 import pendulum
 import datetime
-from airflow.decorators import taks
+from airflow.decorators import task
 from airflow.operators.email import EmailOperator
 
 
