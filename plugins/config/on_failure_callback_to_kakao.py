@@ -1,4 +1,3 @@
-
 from config.kakao_api import send_kakao_msg
 
 def on_failure_callback_to_kakao(context):
